@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/03/23||13:25:15" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assemnew" uid="Assemnew" version="145">
+<AssemblyFile name="Assemnew.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="water_jet-1" uid="water_jet-1" entityUid="water_jet*:*Default">
+<Transform>
+<Rotation>0 0 1.0000000000000002 -0.69746380949207631 0.71662000701124784 0 -0.71662000701124784 -0.69746380949207631 0</Rotation>
+<Translation>0.37957494879675063 0.13138449408508499 0.23282021580386089</Translation>
+</Transform>
+</Instance>
+<Instance name="cleaning tool-1" uid="cleaning tool-1" entityUid="cleaning tool*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.69746380949207665 0.7166200070112474 0 -0.7166200070112474 -0.69746380949207665 0</Rotation>
+<Translation>0.31457494879675069 0.1313844940850849 0.23282021580386075</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-1" uid="shaft-1" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -0.71662000701124773 0.69746380949207665 0 0.69746380949207665 0.71662000701124773</Rotation>
+<Translation>0.39957494879675071 0.1313844940850849 0.23282021580386075</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels-4" uid="wheels-4" entityUid="wheels*:*Default">
+<Transform>
+<Rotation>-0.087089010449150586 0.99620053415915599 0 -1.1997082159138518e-16 0 1 0.99620053415915599 0.087089010449150586 1.1737359874829341e-16</Rotation>
+<Translation>-0.01542505120323908 0.22638449408508296 0.17282021580384976</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1-1" uid="Part1-1" grounded="true" entityUid="Part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.070425051203249392 0.046384494085082925 0.15782021580385824</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels-1" uid="wheels-1" entityUid="wheels*:*Default">
+<Transform>
+<Rotation>-0.12193583082954171 -0.99253798575163332 0 1.1216970645117174e-16 0 1 -0.99253798575163332 0.12193583082954171 1.1731548846669954e-16</Rotation>
+<Translation>-0.01542505120324935 0.026384494085082914 0.17282021580385831</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels-2" uid="wheels-2" entityUid="wheels*:*Default">
+<Transform>
+<Rotation>-0.12193583082954149 -0.99253798575163332 0 1.1223691159966212e-16 0 1 -0.99253798575163332 0.12193583082954149 1.1737359874829359e-16</Rotation>
+<Translation>0.13457494879675069 0.026384494085082928 0.17282021580385826</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels-3" uid="wheels-3" entityUid="wheels*:*Default">
+<Transform>
+<Rotation>0.68204734972922554 0.73130801494810616 0 0 1.0560868749449525e-16 1 0.73130801494810616 -0.68204734972922554 1.1737359874828141e-16</Rotation>
+<Translation>0.13457494879675036 0.22638449408508296 0.17282021580386009</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.055000000000000049 -0.02 0.014999999999999986</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheels-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.20500000000000002 -0.02 0.014999999999999986</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheels-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.20500000000000002 0.19 0.014999999999999986</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheels-3</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.055000000000000049 0.19 0.014999999999999986</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheels-4</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels-1</Uid>
+</InstancePath>
+<Position>0.024494594478080528 0.059720403210454978 0.010000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels-4</Uid>
+</InstancePath>
+<Position>-0.011542758811877996 -0.063508081668995048 0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels-2</Uid>
+</InstancePath>
+<Position>-0.049228232665027599 0.041750363195340534 0.010000000000000005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels-3</Uid>
+</InstancePath>
+<Position>0.015286229064975593 -0.062712382503282607 0.0099999999999999811</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0.085000000000000006 0.075000000000000011</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0.40000000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0.085000000000000006 0.075000000000000011</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0.080000000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>cleaning tool-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0.080000000000000016 0.0080866650862147088 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cleaning tool-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000004 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cleaning tool-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>water_jet-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>water_jet-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000004 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>water_jet-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheels-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheels-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Part1" uid="Part1*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.8009623965164741</Mass>
+<CenterOfMass>0.13448436668296151 0.08500000000000002 0.074875277943471097</CenterOfMass>
+<Inertia>0.029662126078508731 0.054413654104185222 0.058162726462820967 0 -3.8037744253425077e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cleaning tool" uid="cleaning tool*:*Default" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cleaning tool.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13770408803563949</Mass>
+<CenterOfMass>0 0 -1.7914064283939306e-08</CenterOfMass>
+<Inertia>0.00023563618243022268 0.00023563618243022284 0.0004660123522081631 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cleaning tool_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="shaft" uid="shaft*:*Default" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21515311396080525</Mass>
+<CenterOfMass>0.19730268086776256 0 0</CenterOfMass>
+<Inertia>1.9097548454078831e-05 0.0032026680786296368 0.0032026680786296368 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="water_jet" uid="water_jet*:*Default" version="354">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="water_jet.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30135961712086118</Mass>
+<CenterOfMass>3.4926659608994135e-11 -2.2932552536564679e-05 0.010008870791177658</CenterOfMass>
+<Inertia>0.0010701911682792829 0.0010049139194228461 0.0020564882470056585 -4.5077111156906078e-07 -2.5887444339411316e-12 -5.195300431723204e-10</Inertia>
+</MassProperties>
+<GeometryFile name="water_jet_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheels" uid="wheels*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheels.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1164931268896138</Mass>
+<CenterOfMass>0 0 0.0049999999999999992</CenterOfMass>
+<Inertia>0.00011366915189218542 0.00011366915189218535 0.00022539675166954385 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheels_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
